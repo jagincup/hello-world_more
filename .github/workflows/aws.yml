@@ -92,3 +92,7 @@ jobs:
         service: ${{ env.ECS_SERVICE }}
         cluster: ${{ env.ECS_CLUSTER }}
         wait-for-service-stability: true
+#addded Labeler from https://github.com/marketplace/actions/labeler?version=v4.1.0
+- name: Labeler
+uses: actions/labeler@v4.1.0
+            
